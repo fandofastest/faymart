@@ -4,6 +4,9 @@ export const metadata = {
   title: "FOOD ABOUT YOU LIMITED",
   description: "Company profile of FOOD ABOUT YOU LIMITED",
   metadataBase: new URL("https://food-about-you.vercel.app"),
+  verification: {
+    google: "8HIQql0LY8yqQAbCyWDF-lOqrRGBzKsTohNY6AzOlbQ",
+  },
 };
 
 export default function RootLayout({ children }) {
